@@ -151,6 +151,13 @@
       transition: all 0.25s ease;
     }
 
+    .btn-resume {
+      background: var(--coral);
+      color: #fff;
+    }
+
+    .btn-resume:hover { background: var(--coral-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,107,107,0.35); }
+
     .btn-yt {
       background: #FF0000;
       color: #fff;
